@@ -1,5 +1,5 @@
 # Portfolio
 
-Live Preview: https://kiranb.netlify.app/
+Live Preview: https://kirandev.me
 
 Portfolio website to showcase all my projects
