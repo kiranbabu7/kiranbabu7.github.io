@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  font-size: 2.5rem;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
+  min-height: 10vh;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+  z-index: 2;
+  position: relative;
+}
+.logo {
+  flex: 1 1 20rem;
+  margin-left: 2rem;
+  font-size: 5rem;
+  font-family: "Great Vibes", cursive;
+}
+#active {
+  background-color: rgb(165, 163, 163);
+}
+.links {
+  flex: 1 1 40rem;
+  padding-bottom: 1rem;
+}
+.links li {
+  background-color: gainsboro;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hero h2 {
+  color: black;
+}
+.hero-img img {
+  flex: 1 1 30rem;
+  width: 60rem;
+  margin-left: 15rem;
+}
+.intro-social {
+  margin: 3rem 0;
+}
+.intro-social a {
+  padding: 0 0 0 1rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem;
+  width: 90%;
+  margin: auto;
+}
+.main div {
+  min-height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient(90deg, #1cb5e0 0%, #8b97ff 100%);
+  box-shadow: 7px 8px 25px 2px rgb(131, 131, 131);
+  margin: 3rem;
+  border-radius: 15px;
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 3px rgb(197, 197, 197);
+}
+.main span {
+  margin: 2rem;
+}
+.main a {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: rgb(194, 204, 248);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid rgb(54, 116, 209);
+}
+.main a:hover {
+  background-color: rgb(153, 194, 255);
+  border: 3px solid rgb(255, 255, 255);
+}
+.main #source {
+  background-color: white;
+  color: rgb(54, 116, 209);
+  border: 1px solid rgb(54, 116, 209);
+}
+.main #source:hover {
+  background-color: rgb(54, 116, 209);
+  color: white;
+  border: 3px solid white;
+}
+footer {
+  min-height: 10vh;
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+  background-color: gray;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+footer h4 {
+  flex: 1 1 30rem;
+}
+footer ul {
+  flex: 1 1 30rem;
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 911px) {
+  .logo {
+    display: flex;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+  }
+  .main {
+    width: 100%;
+    padding: 2rem;
+  }
+  footer h4 {
+    text-align: center;
+  }
+  .hero {
+    padding: 2rem;
+  }
+  .intro-text {
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .hero-img img {
+    width: 30rem;
+    margin: 0;
+  }
+}
